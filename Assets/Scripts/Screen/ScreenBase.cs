@@ -1,6 +1,7 @@
+using DG.Tweening;
+using NaughtyAttributes;
 using System.Collections.Generic;
 using UnityEngine;
-using NaughtyAttributes;
 
 
 namespace Screens
@@ -19,15 +20,26 @@ namespace Screens
 
         public bool startHided = false;
 
+        [Header("Animation")]
+        public float animationDuration = .03f;
+        public float delayBetweenObjects = .05f;
+
+        private void Start()
+        {
+            if (startHided)
+            {
+                HideObjects();
+            }
+        }
 
         [Button]
-        protected private void Show()
+        protected virtual void Show()
         {
             ShowObjects();
             Debug.Log("Show");
         }
         [Button]
-        protected private void Hide()
+        protected virtual private void Hide()
         {
             HideObjects();
             Debug.Log("Hide");
@@ -37,7 +49,19 @@ namespace Screens
         {
             listOfObjects.ForEach(i => i.gameObject.SetActive(false));
         }
+
         private void ShowObjects()
+        {
+            for (int i = 0; i < listOfObjects.Count; i++)
+            {
+                var obj = listOfObjects[i];
+
+                obj.gameObject.SetActive(true);
+                obj.DOScale(0, animationDuration).From().SetDelay(i * delayBetweenObjects);
+            }
+        }
+
+        private void ForceShowObjects()
         {
             listOfObjects.ForEach(i => i.gameObject.SetActive(true));
         }
