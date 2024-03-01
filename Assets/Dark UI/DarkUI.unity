@@ -249,6 +249,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!224 &185434141 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 6142518340578996003, guid: 0d8b9493ff4401d43bc6ea9f344235d5,
@@ -365,6 +367,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!1 &445625436 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7364471588380820802, guid: 3d3a66fb28982a04eaebd2b7260047fa,
@@ -636,6 +640,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!1 &1311921509
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,6 +826,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!224 &1464442739 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1242715466430333157, guid: 7b9531949e32e694493f68b06afcf377,
@@ -850,6 +858,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!224 &1592495066 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 3320172709779364237, guid: 88bfb9db2b5e692439d24a9c469a31b9,
@@ -880,6 +890,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!1 &1768221944 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3457263925690258605, guid: d9f1eab8509cab84c8deac6f16b2db0c,
@@ -904,6 +916,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!1 &1912780801 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5572871152678933478, guid: d9f1eab8509cab84c8deac6f16b2db0c,
@@ -928,6 +942,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!114 &1912780807
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -940,6 +956,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!1 &2098033931 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5572871152612982666, guid: d9f1eab8509cab84c8deac6f16b2db0c,
@@ -964,6 +982,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 24687c0ca0cbd4c4687e3b6de9dd8f92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  finalScale: 1.2
+  scaleDuration: 0.1
 --- !u!224 &2099691398 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 1347561138099279657, guid: d9f1eab8509cab84c8deac6f16b2db0c,
@@ -2346,6 +2366,21 @@ PrefabInstance:
         type: 3}
       propertyPath: m_SizeDelta.y
       value: 150
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347561139538502236, guid: d9f1eab8509cab84c8deac6f16b2db0c,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347561139538502236, guid: d9f1eab8509cab84c8deac6f16b2db0c,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 1347561139538502236, guid: d9f1eab8509cab84c8deac6f16b2db0c,
+        type: 3}
+      propertyPath: m_LocalScale.z
+      value: 1.5
       objectReference: {fileID: 0}
     - target: {fileID: 1347561139592615286, guid: d9f1eab8509cab84c8deac6f16b2db0c,
         type: 3}
